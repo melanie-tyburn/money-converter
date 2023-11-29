@@ -1,0 +1,23 @@
+.result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+
+    &-rate {
+        font-size: 50px;
+        font-family: system-ui;
+        font-weight: 600;
+        color: #bb5432;
+        margin: 0;
+    }
+
+    &-name {
+        font-size: 40px;
+        font-weight: lighter;
+        font-family: system-ui;
+        color: #bb5432;
+        margin-top:0
+    }
+}

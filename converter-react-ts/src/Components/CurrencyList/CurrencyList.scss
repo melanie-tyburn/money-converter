@@ -1,0 +1,43 @@
+.currencies {
+    width: 600px;
+    background-color: white;
+    height: 350px;
+    overflow: auto;
+
+    ul {
+        padding: 0;
+    }
+    li {
+        list-style-type: none;
+        font-size: 30px;
+        font-family: sans-serif;
+        font-weight: 100;
+        color: #bb5432;
+        border-bottom:1px solid #bb543257;
+        p {
+            padding: 15px 20px;
+            margin: 0;
+        }
+    }
+    li:hover {
+        background-color: #bb543257;
+        cursor: pointer;
+    }
+
+    &-title {
+        padding: 0 20px;
+        color: #bb5432;
+        font-family: system-ui;
+        font-size: 25px;
+        border-bottom:1px solid #bb543257;
+        padding-bottom: 15px;
+        margin: 0;
+    }
+
+    li:last-child {
+        border-bottom:transparent;
+    }
+
+
+    
+}
